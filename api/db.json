@@ -1,22 +1,10 @@
 {
   "streams": [
     {
-      "title": "I created this stream",
-      "description": "Lovely stream",
-      "userId": "109966489342846869295",
-      "id": 1
-    },
-    {
       "title": "Programmatic",
       "description": "Navigation",
       "userId": "109966489342846869295",
       "id": 2
-    },
-    {
-      "title": "Refactoring of  components",
-      "description": "Edit comps",
-      "userId": "109966489342846869295",
-      "id": 3
     }
   ]
 }
