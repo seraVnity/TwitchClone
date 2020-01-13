@@ -1,8 +1,14 @@
 {
   "streams": [
     {
-      "title": "Programmatic",
-      "description": "Navigation",
+      "title": "I love Streams",
+      "description": "Lovely",
+      "userId": "109966489342846869295",
+      "id": 1
+    },
+    {
+      "title": "Oh Holy Christmas",
+      "description": "Happy NY",
       "userId": "109966489342846869295",
       "id": 2
     }

@@ -10,7 +10,7 @@ class StreamDelete extends React.Component {
     this.props.fetchStream(this.props.match.params.id);
   }
   renderActions() {
-    const id = this.props.match.params.id;
+    const { id } = this.props.match.params;
     return (
       <React.Fragment>
         <button
@@ -45,7 +45,6 @@ class StreamDelete extends React.Component {
 const mapStateToProps = (state, ownProps) => {
   return { stream: state.streams[ownProps.match.params.id] };
 };
-export default connect(
-  mapStateToProps,
-  { fetchStream, deleteStream }
-)(StreamDelete);
+export default connect(mapStateToProps, { fetchStream, deleteStream })(
+  StreamDelete
+);
